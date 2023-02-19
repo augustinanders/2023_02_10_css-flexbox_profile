@@ -18,11 +18,15 @@ body {
   border-radius: 50%;
   max-width: 50%;
   height: auto;
+  align-self: center;
 }
 
 .tech-stack__list {
   list-style: none;
   padding-left: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .tech-stack__list-item {
@@ -30,4 +34,9 @@ body {
   background-color: #252629;
   color: #ffffff;
   border-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
 }
